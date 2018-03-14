@@ -1,0 +1,58 @@
+body{
+    background-image: url("http://getwallpapers.com/wallpaper/full/d/7/b/359783.jpg");
+    background-size: cover;
+    position: absolute;
+}
+
+
+/* #gif-form{
+ position: fixed;
+ right:-1%;
+ top:-10%;
+ padding:100px;
+ 
+} */
+
+h1{
+    font-size:30px;
+}
+
+button, div, form, input {
+    margin: 10px;
+    color:white;
+    font-weight: bold;
+}
+
+.gif-btn{
+   background-color: teal;
+   color:black;
+   font-size: 15px;
+}
+
+#add-gif{
+    font-size:15px;
+    background-color:teal;
+    color:black;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: 5px;
+}
+
+.harry{
+    margin-top: 30px;
+    float: left;
+    margin-right: 15px;
+}
+
+#gif-input{
+    color:black;
+}
+
+#form{
+    padding:10px;
+}
+
