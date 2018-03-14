@@ -60,9 +60,9 @@ $(document.body).on("click", ".gif-btn", function () {
 
             var p = $("<p>").text("Rating: " + results[i].rating);
 
-            var harryPotterImage = $("<img>").attr("src", results[i].images.fixed_height.url);
-            harryPotterImage.attr("data-animate", results[i].images.fixed_height.url);
+            var harryPotterImage = $("<img>").attr("src", results[i].images.fixed_height_still.url);
             harryPotterImage.attr("data-still", results[i].images.fixed_height_still.url);
+            harryPotterImage.attr("data-animate", results[i].images.fixed_height.url);
             harryPotterImage.attr("data-state", "still");
             harryPotterImage.addClass("image");
 
