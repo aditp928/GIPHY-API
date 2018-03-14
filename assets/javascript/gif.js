@@ -1,3 +1,5 @@
+$( document ).ready(function() {
+
 var topics = ["Harry Potter", "Ron Weasley", "Hermione Granger", "Lord Voldermort", "Draco Malfoy",
     "Albus Dumbledore", "Severus Snape"
 ]
@@ -87,3 +89,4 @@ $(document).on("click", "img", function () {
     }
 
 });
+})
